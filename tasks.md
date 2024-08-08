@@ -1,11 +1,12 @@
-- Understand the code
-- Create DB (Databse)
-- Add Database URL to .env and add PORT to .env
--   add "?ssl=true" to the end of the DB link
-- NPM install
+- Understand the code ✔
+- Create DB (Databse) ✔
+- Add .env file ✔
+- Add Database URL to .env and add PORT to .env ✔
+-   add "?ssl=true" to the end of the DB link✔
+- NPM install ✔
 - Reset DB
 - Run the app
-- Install Playwright (Carefully)
+- Install Playwright (Carefully)✅
 - Add an NPM script to run Playwright
 - Write a simple test
 - Try the test

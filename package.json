@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config server.mjs",
-    "reset-db": "node -r dotenv/config db/reset-tables.mjs"
+    "reset-db": "node -r dotenv/config db/reset-tables.mjs",
+    "test": "Playwright--ui",
+    "test:watch": "Playwright --watch",
+    "test:verbose": "Playwright --reporter verbose"
   },
   "dependencies": {
     "express": "^4.18.2",

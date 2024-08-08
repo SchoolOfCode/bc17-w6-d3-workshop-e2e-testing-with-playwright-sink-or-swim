@@ -3,7 +3,7 @@ export async function getTodos() {
   const body = await response.json();
   return body;
 }
-
+//Asking what activities the code needs to do
 export async function createTodo(todo) {
   const response = await fetch("/api/todos", {
     method: "POST",
@@ -18,7 +18,7 @@ export async function createTodo(todo) {
   const body = await response.json();
   return body;
 }
-
+//Updating the activities if changes have been made
 export async function updateTodoById(idToDelete, updates) {
   const response = await fetch(`/api/todos/${idToDelete}`, {
     method: "PUT",
@@ -33,7 +33,7 @@ export async function updateTodoById(idToDelete, updates) {
   const body = await response.json();
   return body;
 }
-
+//Deleting the activity
 export async function deleteTodoById(idToDelete) {
   const response = await fetch(`/api/todos/${idToDelete}`, {
     method: "DELETE",
